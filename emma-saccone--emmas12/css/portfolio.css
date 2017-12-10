@@ -1,0 +1,17 @@
+.portfolio-container{
+   width: 100%;
+   background-color: #f2fffe;
+   min-height: 800px;
+}
+.col-1{
+padding-left: 20px;
+padding-right: 20px;
+}
+.col-2{
+padding-left: 20px;
+padding-right: 20px;
+}
+.col-3{
+padding-left: 20px;
+padding-right: 20px;
+}
