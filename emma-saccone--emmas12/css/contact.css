@@ -1,0 +1,39 @@
+.contact-container{
+   background-color:#f2fffe;
+   min-height:800px;
+   padding-right:10%;
+   padding-left:10%;
+}
+.col-1{
+   display:inline-block;
+   width:40%;
+   vertical-align: top;
+   padding-top: 40px;
+}
+.col-2{
+   display:inline-block;
+   width:49%;
+   text-align: right;
+   padding-top: 40px;
+}
+.contact-font{
+   font-family:"Montserrat";
+   font-style:normal;
+   font-weight:3.18em;
+}
+.message{
+   display:block;
+   margin-bottom:20px;
+   width:100%
+}
+.social-media{
+   display:block;
+   padding-top: 10px;
+   padding-right: 50px;
+}
+.email{
+   text-align:right;
+   font-family:"Montserrat";
+   font-style:normal;
+   font-weight:1.4em;
+}
