@@ -31,11 +31,14 @@
    (max-width:768px){
    .col-1{
       width:100%;
+      padding-top: 0px;
    }
    .col-2{
       width:100%;
+      padding-top: 0px;
    }
    .col-3{
       width:100%;
+      padding-top: 0px;
    }
 }
