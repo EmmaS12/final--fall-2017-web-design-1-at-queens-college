@@ -28,14 +28,14 @@
    padding-bottom: 20px;
 }
 @media
-   (min-height:768px){
+   (min-width:768px){
    .col-1{
-      width: 100px:
+      width:100%;
    }
    .col-2{
-      width: 100%;
+      width:100%;
    }
    .col-3{
-      width: 100%;
+      width:100%;
    }
 }
