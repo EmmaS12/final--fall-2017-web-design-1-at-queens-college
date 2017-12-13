@@ -19,7 +19,7 @@ display: inline-block;
 vertical-align: middle;
 }
 .title{
-   font-size: 60px;
+   font-size: 3.75em;
    margin-top:15px;
    display: inline-block;
 }
@@ -33,9 +33,9 @@ vertical-align: middle;
 a {
    text-decoration: none;
    color: black;
-   font-size: 36px;
+   font-size: 2.25em;
    padding-right: 100px;
-     font-family: "Montserrat";
+   font-family: "Montserrat";
 }
 a:hover{
   color: #636363;
@@ -53,6 +53,16 @@ a:hover{
 .homepage-img{
   padding-top:60px;
 }
-
-
+@media
+   (max-width:768px){
+   .title{
+      font-size: 1.5em;
+    }
+   .header {
+      height: auto;
+    }
+    a{
+    display: block;
+    }
+   }
 
