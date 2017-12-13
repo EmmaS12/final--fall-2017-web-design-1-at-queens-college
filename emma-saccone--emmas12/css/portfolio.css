@@ -27,3 +27,15 @@
    width: 95%;
    padding-bottom: 20px;
 }
+@media
+   (min-height:768px){
+   .col-1{
+      width: 100px:
+   }
+   .col-2{
+      width: 100%;
+   }
+   .col-3{
+      width: 100%;
+   }
+}
