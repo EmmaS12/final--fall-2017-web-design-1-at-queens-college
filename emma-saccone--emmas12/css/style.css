@@ -63,6 +63,10 @@ a:hover{
     }
     a{
     display: block;
+    padding-right: 0px;
+    }
+    .nav {
+      height: auto;
     }
    }
 
