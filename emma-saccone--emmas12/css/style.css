@@ -1,3 +1,6 @@
+body{
+  margin:0px;
+}
 @font-face{
    font-family: "Montserrat";
    font-style: normal;
@@ -30,14 +33,14 @@ vertical-align: middle;
 .nav-container{
   text-align: center;
 }
-a {
+.nav-link {
    text-decoration: none;
    color: black;
    font-size: 2.25em;
    padding-right: 100px;
    font-family: "Montserrat";
 }
-a:hover{
+.nav-link:hover{
   color: #636363;
 }
 .last-nav-element{
@@ -60,7 +63,7 @@ a:hover{
    .header {
       height: auto;
     }
-    a{
+    .nav-link{
     display: block;
     padding-right: 0px;
     }
