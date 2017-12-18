@@ -1,0 +1,82 @@
+body{
+  margin:0px;
+}
+@font-face{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 400;
+   src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+.header {
+   font-family: "Montserrat";
+   font-style: normal;
+   height: 100px;
+   background-color: #f2fffe;
+   position: relative;
+}
+.header-container{
+  text-align: center;
+}
+.logo{
+display: inline-block;
+vertical-align: middle;
+}
+.title{
+   font-size: 3.75em;
+   margin-top:15px;
+   display: inline-block;
+}
+.nav{
+   height: 50px;
+   background-color: #d7d7d7;
+}
+.nav-container{
+  text-align: center;
+}
+.nav-link {
+   text-decoration: none;
+   color: black;
+   font-size: 2.25em;
+   padding-right: 100px;
+   font-family: "Montserrat";
+}
+.nav-link:hover{
+  color: #636363;
+}
+.last-nav-element{
+  padding-right: 0px;
+}
+.content{
+  height: 640px;
+  background-color: #f2fffe;
+  text-align: center;
+  min-height: 800px;
+}
+.homepage-img{
+  padding-top:60px;
+}
+@media
+   (max-width:768px){
+   .title{
+      font-size: 2.5em;
+    }
+   .header {
+      height: auto;
+    }
+    .nav-link{
+    display: block;
+    padding-right: 0px;
+    }
+   .nav {
+      height: auto;
+    }
+   .homepage-img{
+      width: 100%;
+    }
+   }
+   @media
+   (max-width:480px) and (min-width: 320px){
+   .title{
+    font-size: 1.8em;
+ }
+}
