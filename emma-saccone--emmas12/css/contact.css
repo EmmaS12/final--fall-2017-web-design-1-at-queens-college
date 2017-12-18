@@ -28,8 +28,11 @@
 }
 .social-media{
    display:block;
-   padding-top: 10px;
+   padding-top: 15px;
    padding-right: 50px;
+}
+.linkedin{
+   padding-bottom: 15px;
 }
 .email{
    text-align:right;
@@ -39,10 +42,10 @@
 }
 @media
    (max-width:768px){
-.social-media{
+   .social-media{
       display:inline-block;
       padding-top: 30px;
-      padding-right: 40px;
+      padding-right: 30px;
    }
    .col-1{
       padding-top: 0px;
@@ -56,7 +59,6 @@
    .email{
       text-align:center;
       display: block;
-      padding-top: 20px;
    }
 }
 @media
@@ -72,9 +74,6 @@
       padding-top: 0px;
       width: 100%;
       text-align:center;
-   }
-   .submit{
-      padding-top: 5px}
    }
    .social-media{
       display:inline-block;
