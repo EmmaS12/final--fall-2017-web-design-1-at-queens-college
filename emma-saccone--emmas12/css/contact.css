@@ -35,10 +35,10 @@
    padding-bottom: 15px;
 }
 .email{
-   text-align:right;
+   text-align: right;
    font-family:"Montserrat";
    font-style:normal;
-   font-weight:1.4em;
+   font-size: 1.4em;
 }
 @media
    (max-width:768px){
@@ -59,6 +59,7 @@
    .email{
       text-align:center;
       display: block;
+      font-size: 1.4em;
    }
 }
 @media
@@ -82,5 +83,6 @@
    }
    .email{
    text-align:center;
+   font-size: 1em;
    }
 }
